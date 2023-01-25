@@ -1,0 +1,168 @@
+body{
+	background-color: rgb(248, 244, 244);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.container{
+    width: 450px;
+    height: 380px;
+ background-color: rgb(235, 232, 232);
+    position:relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: 12%;
+    margin-bottom: 190px;
+    box-shadow: 0.5px 1px 3px 0.5px;
+
+
+}
+
+
+
+#container2{
+
+background: rgb(231, 223, 223);
+margin: 80px 450px 10px;
+border: 3px solid white; 
+width: 20px;
+padding: 7px 3px 35px 3px;
+}
+
+img{
+	margin: 30px 50px 0px;
+
+}
+
+h2{
+
+margin:  0px 150px 10px 50px ; 
+margin-top: 10px;
+font-size: 24px;
+font-family: "Segoe UI";
+color:#1b1b1b;
+font-weight: 600;
+
+}
+
+input[type=text]{
+    width: 320px;
+    padding: 10px 14px;
+    margin: 8px 45px;
+   	font-family: "Segoe UI";
+	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid #0067b8;
+	outline:none;
+	padding-left: 0px;
+    margin-top: 20px;
+    
+}
+
+#password{
+	width: 320px;
+    padding: 10px 14px;
+    margin: 8px 45px;
+   	font-family: "Segoe UI";
+	font-size:  15px;
+	border: none;
+	border-bottom: 1px  solid #0067b8;
+	outline:none;
+	padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.pino{
+    width: 320px;
+    padding: 10px 14px;
+    margin: 8px 45px;
+   	font-family: "Segoe UI";
+	font-size: 15px;
+	border: none;
+	border-bottom: 1px solid #0067b8;
+	outline:none;
+	padding-left: 0px;
+	outline:none;
+
+}
+
+a{
+		width: 0px; 
+		padding: 8px 30px;
+		margin: 15px 250px 80px 265px;
+		color: white;
+		background: #396FDC;
+		border: 0px solid #396FDC ;
+		font-family: "Segoe UI";
+		font-size: 16px;
+		cursor: pointer;
+		outline:none;
+		text-decoration: none;
+
+}
+
+
+
+small{
+ margin: 0px 65px;
+ font-family: "Segoe UI";
+ color: #0067b8;
+ font-size: 13px;
+ text-decoration: none;
+ cursor: pointer;
+ 
+}
+
+h4{
+ margin: 0px 65px;
+ font-family: "Segoe UI";
+ color: #75C623;
+ font-size: 16px;
+ text-decoration: none;
+ cursor: pointer;
+ 
+}
+
+
+b:hover{
+	color: #ccc;
+	text-decoration: underline;
+	
+}
+
+h3:hover{
+	text-decoration: underline;
+	
+}
+
+
+h5:hover{
+	text-decoration: underline;
+	
+}
+
+div{
+	position: absolute;
+	margin: -15px 0px 150px 175px;
+}
+
+
+
+.boton{
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: rgb(8, 86, 231);
+font-weight: 600;
+color: rgb(255, 255, 255);
+font-size: 12pt;
+}
+input{ margin-top: 20px;}
+#password{margin-top: 20px;}

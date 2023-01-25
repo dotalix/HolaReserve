@@ -1,0 +1,25 @@
+<script type="text/javascript">
+  function GetReferrer() {
+    var preUrl = document.referrer;
+    if (preUrl == null) return null;
+    else return preUrl;
+  }
+
+  let ref = GetReferrer();
+
+  if (localStorage.getItem("auto-lang" == "es")) {
+    setInterval(function () {
+      window.location.href = "/es/not_found/";
+    }, 500);
+  } else {
+    if (ref.includes("/es/")) {
+      setInterval(function () {
+        window.location.href = "/es/not_found/";
+      }, 500);
+    } else {
+      setInterval(function () {
+        window.location.href = "/not_found/";
+      }, 500);
+    }
+  }
+</script>
